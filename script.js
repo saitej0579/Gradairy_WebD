@@ -1,4 +1,5 @@
-const allow = document.querySelector("input[data-allow]"); // Select the input field
+const userId = document.querySelector("input[data-allow1]"); // Select the input field
+const userPass = document.querySelector("input[data-allow2]")
 const button = document.querySelector("button[data-button]"); // Select the button
 const text = document.querySelector("p[data-text]"); // Select the paragraph text
 const section = document.querySelector(".allowSection"); // Select the section with class 'allowSection'
@@ -12,11 +13,10 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 
 function change() {
-    if (allow.value === "tej") { // Check if input value is "tej"
+    if (userId.value === "0579" && userPass.value ==="tej") { // Check if input value is "tej"
         section.classList.remove("active"); // Remove 'active' class to hide the section
         sessionStorage.setItem("hiddenSection", "true"); // Save the hidden state in sessionStorage
     }
 }
-
 button.addEventListener("click", change); // Add event listener to button
 
