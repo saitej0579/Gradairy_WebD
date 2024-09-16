@@ -106,8 +106,24 @@ body{
     column-gap: 40px;
     row-gap: 40px;
 }
+
+@media screen and (max-width:320px){
+    .Home{
+        font-size: 1rem;
+    }
+    .videoSection{
+    padding: 10px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .video{
+        width: 60px;
+        height: 25px;
+    }
+}
+
 .video{
     width: 370px;
     height: 270px;
 }
-
