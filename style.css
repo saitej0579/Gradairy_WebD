@@ -106,4 +106,8 @@ body{
     column-gap: 40px;
     row-gap: 40px;
 }
+.video{
+    width: 370px;
+    height: 270px;
+}
 
