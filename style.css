@@ -107,7 +107,20 @@ body{
     row-gap: 40px;
 }
 
-@media screen and (max-width:320px){
+@media (max-width: 700px){
+    .videoSection{
+    padding: 10px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    }
+    .video{
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/* @media (max-width:910px){
     .Home{
         font-size: 1rem;
     }
@@ -115,12 +128,12 @@ body{
     padding: 10px;
     margin-top: 60px;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     }
     .video{
         max-width: 300px;
     }
-}
+} */
 
 .video{
     width: 390px;
