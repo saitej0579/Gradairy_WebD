@@ -110,6 +110,10 @@ body{
 @media (max-width: 600px){
     .active{
         left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .videoSection{
     padding: 10px;
