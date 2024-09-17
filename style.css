@@ -4,7 +4,8 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    /* background-color: black; */
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
 .wrapper{
     height: 100vh;
@@ -81,7 +82,17 @@ body{
     width: 100%;
     height: 100%;
 }
+
+.linkedin{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .navBar{
+    margin-bottom: 50px;
     width: 100vw;
     height: 70px;
     display: flex;
@@ -108,42 +119,41 @@ body{
 }
 
 @media (max-width: 600px){
+    .navBar{
+        margin-bottom: 20px;
+    }
+    .linkedin{
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
     .active{
         left: 0px;
         max-width: 380px;
-        max-height: 300px;
+        /* max-height: 300px; */
     }
     .Home{
         font-size: 1rem;
     }
     .videoSection{
     margin-left: -19px;
-    margin-top: 60px;
+    margin-top: 40px;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: auto ;
     }
     .video{
+        margin-top:-30px;
         max-width: 330px;
         max-height: auto;
     }
 }
 
-/* @media (max-width:910px){
-    .Home{
-        font-size: 1rem;
-    }
-    .videoSection{
-    padding: 10px;
-    margin-top: 60px;
-    display: grid;
-    grid-template-columns: auto auto;
-    }
-    .video{
-        max-width: 300px;
-    }
-} */
 
 .video{
+
+    margin-bottom: 10px;
     width: 390px;
     height: 216px;
 }
