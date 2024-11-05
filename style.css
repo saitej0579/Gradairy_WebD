@@ -83,14 +83,6 @@ body{
     height: 100%;
 }
 
-.linkedin{
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .navBar{
     margin-bottom: 50px;
     width: 100vw;
@@ -100,6 +92,24 @@ body{
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid rgb(85, 85, 97);
+}
+
+img{
+    height: 60px;
+    width: 140px;
+}
+
+.future{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    align-items: start;
+    font-size: 16px;
+    margin-left: 2rem;
 }
 
 .dsa{
